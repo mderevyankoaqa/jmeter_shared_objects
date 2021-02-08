@@ -1,0 +1,23 @@
+plugins {
+    id 'groovy'
+    id  'java'
+    id 'application'
+}
+
+group 'mderevyankoqa'
+version = '0.1'
+
+configurations {
+    jar.archiveName = 'jmeter-plugins-mdqa-shared-objects-'+version + '.jar'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:3.0.7'
+}
