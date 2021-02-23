@@ -8,7 +8,7 @@ group 'mderevyankoqa'
 version = '0.1'
 
 configurations {
-    jar.archiveName = 'jmeter-plugins-mdqa-shared-objects-'+version + '.jar'
+    jar.archiveName = 'jmeter-plugins-mdqa.shared.objects-'+version + '.jar'
 }
 
 sourceCompatibility = 1.8
